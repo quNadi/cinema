@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'cinema'
 ]
 
 MIDDLEWARE = [
@@ -76,8 +77,12 @@ WSGI_APPLICATION = 'CinemaBA.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'dfssnvstarnqsc',
+        'USER': 'pswolsyqshnyxt',
+        'PASSWORD': '7087154f143fbb70a3c7f0c5e34ebb13deb5c5abc2d37adef4acd61cc7a5c360',
+        'HOST':'ec2-79-125-2-142.eu-west-1.compute.amazonaws.com',
+        'PORT':'5432',
     }
 }
 
