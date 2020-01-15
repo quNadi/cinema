@@ -38,7 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'cinema',
-    'frontend'
+    'frontend',
+    #'rest_framework'
 
 ]
 
